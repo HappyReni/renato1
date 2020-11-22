@@ -1,0 +1,34 @@
+#paragraph {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+h1 {
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+
+}
+#paragraph ol {
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding: 33px;
+}
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+@media(max-width:800px) {
+    #paragraph {
+        display: block;
+    }
+    #paragraph ol {
+        border-right: none;
+        width: 100px;
+        margin: 0;
+        padding: 33px;
+    }
+}
